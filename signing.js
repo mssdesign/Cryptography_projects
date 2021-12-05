@@ -3,7 +3,7 @@ const { publicKey, privateKey } = require('./keypair');
 
 const message = 'this data must be signed';
 
-const signer = createSign('rsa-sha256');
+const signer = createSign('rsa-sha256')
 
 signer.update(message);
 
